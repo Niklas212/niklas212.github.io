@@ -1,0 +1,14 @@
+@keyframes rainbow_animation {
+  0%{color: #FF0000; background: linear-gradient(0deg, red, green, blue);}
+	33%{color: #00FF00; background: linear-gradient(120deg, green, blue, red);}
+	66%{color: #0000FF; background: linear-gradient(240deg, blue, red, green);}
+	100%{color: #FF0000; background: linear-gradient(360deg, red, green, blue);}
+}
+
+
+.rainbow {
+  animation-name: rainbow_animation;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
